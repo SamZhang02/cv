@@ -1,0 +1,236 @@
+%------------------------s
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{CJKutf8}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{setspace}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\onehalfspacing
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+    \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}
+
+  %----------HEADING----------
+  % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  %   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+  %   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  % \end{tabular*}
+
+  \begin{center}
+    \textbf{\Huge \scshape 张子敬} \\ \vspace{1pt}
+    \small +1 (438) 630-2638 $|$ +86 (131) 2793 0738 $|$ \href{mailto:sam.zijing.zhang@gmail.com}{\underline{sam.zijing.zhang@gmail.com}}  \\
+    \href{https://linkedin.com/in/zhang-sam}{\underline{linkedin.com/in/zhang-sam}} $|$
+    \href{https://github.com/SamZhang02}{\underline{github.com/SamZhang02}} $|$
+    \href{https://cs.mcgill.ca/~szhang139}{\underline{cs.mcgill.ca/$\sim$szhang139}}
+  \end{center}
+
+  %-----------EDUCATION-----------
+  \section{教育经历}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+  {麦吉尔大学}{加拿大, 蒙特利尔}
+  {本科, 双学位：计算机科学，统计}{2022年9月 -- 2025年5月 (预计)}
+  \resumeItem{GPA: 3.94/4.0}
+  \resumeSubheading
+  {Champlain College}{加拿大, 蒙特利尔}
+  {预科, 商科}{2020年9月 -- 2022年5月}
+  \resumeItem{荣誉证书：经济学优秀学生}
+  \resumeSubHeadingListEnd
+
+  %-----------EXPERIENCE-----------
+  % \section{Experience}
+  %   \resumeSubHeadingListStart
+
+  %     \resumeSubheading
+  %       {Undergraduate Research Assistant}{June 2020 -- Present}
+  %       {Texas A\&M University}{College Station, TX}
+  %       \resumeItemListStart
+  %         \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management s用ystems}
+  %         \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+  %         \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+  %       \resumeItemListEnd
+
+  % -----------Multiple Positions Heading-----------
+  %    \resumeSubSubheading
+  %     {Software Engineer I}{Oct 2014 - Sep 2016}
+  %     \resumeItemListStart
+  %        \resumeItem{Apache Beam}
+  %          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+  %     \resumeItemListEnd
+  %    \resumeSubHeadingListEnd
+  %-------------------------------------------
+
+  %   \resumeSubheading
+  %     {Information Technology Support Specialist}{Sep. 2018 -- Present}
+  %     {Southwestern University}{Georgetown, TX}
+  %     \resumeItemListStart
+  %       \resumeItem{Communicate with managers to set up campus computers used on campus}
+  %       \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+  %       \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+  %   \resumeItemListEnd
+
+  %   \resumeSubheading
+  %     {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+  %     {Southwestern University}{Georgetown, TX}
+  %     \resumeItemListStart
+  %       \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+  %       \resumeItem{Developed a game in Java to test the generated dungeons}
+  %       \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+  %       \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+  %       \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+  %       \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+  %     \resumeItemListEnd
+
+  % \resumeSubHeadingListEnd
+
+  \section{工作经验}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+  {算法实习生}{2023年5月 - 2023年8月}
+  {美团点评}{中国, 上海}
+  \resumeItemListStart
+  \resumeItem{广告算法组 - 广告质量预估组}
+  \resumeItem{分析广告数据和用户行为数据（收入、CTR、CPC等）}
+  \resumeItem{使用 \textbf{ Hadoop ecosystem} 进行数据清洗、处理和特征提取，将原始数据转化为 TFRecords 格式。}
+  \resumeItem{使用 \textbf{ TensorFlow} 中与进行建模和训练，以提高广告推荐系统的准确性以及各项质量指标为目标微调模型。}
+  \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  %-----------PROJECTS-----------
+  \section{开源项目}
+  \resumeSubHeadingListStart
+  \resumeProjectHeading
+  {\href{https://github.com/SamZhang02/DrooVE}{\textbf{mcgill.courses}} $|$ \emph{TypeScript, React, Rust, MongoDB}}{20223年4月至今}
+  \resumeItemListStart
+  \resumeItem{开源，无广告的网页app。用于查询与评价麦吉尔大学的课程以及教师。}
+  \resumeItem{主要负责使用TypeScript React的前端开发。}
+  \resumeItem{与用Rust和MongoDB开发的后端用REST API进行交互。}
+  \resumeItemListEnd
+  \resumeProjectHeading
+  {\href{https://github.com/SamZhang02/obsidian-latex-algorithms}{\textbf{LaTeX Algorithms}} $|$ \emph{TypeScript}}{2023年2月}
+  \resumeItemListStart
+  \resumeItem{使用\textbf{Typescript}为markdown文件编辑器《Obsidian》开发的插件，用于在markdown文件中插入\LaTeX格式的数学证明与算法。}
+  \resumeItemListEnd
+  \resumeProjectHeading
+  {\href{https://github.com/SamZhang02/STONK}{\textbf{STONK}} $|$ \emph{Python, SQLite}}{2022年12月}
+  \resumeItemListStart
+  \resumeItem{使用\textbf{Python}开发了一个用于《Discord》社交平台上的聊天室机器人，用于在聊天室中根据用户文字指令获取以及发送股票和指数的实时价格。}
+  \resumeItem{使用\textbf{SQLite}存储用户是否要求每股市交易日自动获取股市信息。}
+  \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  %
+  %-----------PROGRAMMING SKILLS-----------
+  \section{技能}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+                  \textbf{编程语言}{: Python, SQL, JavaScript, TypeScript, Java, C++, OCaml, Scala, Rust} \\
+                  \textbf{数据库}{: SQLite, PostgreSQL, MongoDB}\\
+                  \textbf{框架}{: React, TailwindCSS, TensorFlow}\\
+                  \textbf{工具}{: Git, HTML/CSS, \LaTeX, Node.JS}\\
+                  \textbf{语言}{: 英语, 法语, 国语, 粤语}\\
+            }}
+  \end{itemize}
+
+  %-------------------------------------------
+
+\end{CJK*}
+\end{document}

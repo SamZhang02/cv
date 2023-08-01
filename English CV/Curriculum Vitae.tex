@@ -1,0 +1,187 @@
+%------------------------s
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{setspace}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\onehalfspacing
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    #1 & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+    \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge \scshape Sam Zhang} \\ \vspace{1pt}
+  \small (438) 630-2638 $|$ \href{mailto:sam.zijing.zhang@gmail.com}{\underline{sam.zijing.zhang@gmail.com}}  \\
+  \href{https://linkedin.com/in/zhang-sam}{\underline{linkedin.com/in/zhang-sam}} $|$
+  \href{https://github.com/SamZhang02}{\underline{github.com/SamZhang02}} $|$
+  \href{https://cs.mcgill.ca/~szhang139}{\underline{cs.mcgill.ca/$\sim$szhang139}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{McGill University}{Montreal, QC}
+{B.A., Joint Computer Science and Statistics}{ Sept. 2022 -- May 2025 (Expected)}
+\resumeItem{GPA: 3.94/4}
+\resumeSubheading
+{Champlain College}{St-Lambert, QC}
+{DEC, Social Science: Commerce}{Aug. 2020 -- May. 2022}
+\resumeItem{Social Science Certificate of Merit: Highest Achievement in Economics}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{{\textbf{Machine Learning Intern}} $|$ \emph{TensorFlow, Python, Scala, Java, SQL}}{May. 2023 - Present}
+{Meituan}{Shanghai, China}
+\resumeItemListStart
+\resumeItem{Contributed to the development and implementation of advertisement recommendation algorithms for Meituan's Advertising Platform, supporting a user base of 420 million active users and 5.9 million active merchants. Specifically, worked on improving the click-through rate (CTR) prediction for the Dianping app's homepage ads.}
+
+\resumeItem{Performed big data analysis and feature engineering using the \textbf{Hadoop ecosystem (Hive, Spark, MapReduce, \ldots.)}}
+
+\resumeItem{Modeled, trained, and fine-tuned the Dianping app's homepage's CTR prediction model (binary classification) using \textbf{TensorFlow}.}
+
+\resumeItem{Conducted offline testing using testing data and performed online testing using A/B testing methods to assess the statistical significance in changes of various ad metrics.}
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\href{https://github.com/terror/mcgill.courses}{\textbf{mcgill.courses}} $|$ \emph{TypeScript, React, TailwindCSS, Rust, MongoDB}}{April. 2023 - Present}
+\resumeItemListStart
+\resumeItem{Developed an open-source, ad-free search and review platform for courses offered and instructors teaching at McGill University.}
+\resumeItem{Led front-end development of the website using \textbf{TypeScript}, \textbf{React}, and \textbf{TailwindCSS}.}
+\resumeItem{Collaborated with the back-end, interacting with the \textbf{Rust} and \textbf{MongoDB} components through REST APIs.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/SamZhang02/obsidian-latex-algorithms}{\textbf{LaTeX Algorithms}} $|$ \emph{TypeScript}}{Feb. 2023}
+\resumeItemListStart
+\resumeItem{Developed a \textbf{TypeScript} plugin for the Obsidian markdown editor that parses user input and automatically replaces it with the corresponding LaTeX shortcut, streamlining the writing of algorithm blocks and mathematical proofs.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/SamZhang02/STONK}{\textbf{STONK}} $|$ \emph{Python, SQLite}}{Dec. 2022}
+\resumeItemListStart
+\resumeItem{Created a Discord chat bot using the Discord.py library and the yfinance open-source library, enabling users to query live and historical stock market information.}
+\resumeItem{Implemented a robust stock information retrieval mechanism and a subscription system for users to receive automatic notifications on market trends.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+                \textbf{Languages}{: Python, TypeScript, Java, JavaScript, OCaml, C++, Rust, Scala, SQL} \\
+                \textbf{Databases}{: SQLite, PostgreSQL, MongoDB}\\
+                \textbf{Frameworks \& Libraries}{: React, TailwindCSS, TensorFlow}\\
+                \textbf{Tools}{: Git, HTML/CSS, \LaTeX, Spark}\\
+                \textbf{Languages Spoken}{: English, French, Mandarin, Cantonese}\\
+          }}
+\end{itemize}
+%-------------------------------------------
+\end{document}
