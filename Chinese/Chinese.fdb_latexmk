@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1691925658 "/Users/samzhang/cv/Chinese/Chinese.tex" "Chinese.pdf" "Chinese" 1691925659
-  "/Users/samzhang/cv/Chinese/Chinese.tex" 1691925658 9131 9eeb9d270f56ed8612b15ceaedd8074b ""
+["pdflatex"] 1691927553 "/Users/samzhang/cv/Chinese/Chinese.tex" "Chinese.pdf" "Chinese" 1691927554
+  "/Users/samzhang/cv/Chinese/Chinese.tex" 1691927552 9137 39a38456a787e875c1886e7f52fbedcb ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu30.tfm" 1198435261 1252 fec599f1363dee7f5677ebd04aaa877b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu4e.tfm" 1198435261 1288 02bce64a038ecf122ed75de51b555288 ""
@@ -223,9 +223,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668301523 2826448 4616b6eaac1cfc2ddc558e1ac08a1e70 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Chinese.aux" 1691925659 1196 2636bd9886d59755e759b9da06e83aaa "pdflatex"
-  "Chinese.out" 1691925659 284 bac3e561a23bb49d06742faf4aa26795 "pdflatex"
-  "Chinese.tex" 1691925658 9131 9eeb9d270f56ed8612b15ceaedd8074b ""
+  "Chinese.aux" 1691927553 1196 2636bd9886d59755e759b9da06e83aaa "pdflatex"
+  "Chinese.out" 1691927553 284 bac3e561a23bb49d06742faf4aa26795 "pdflatex"
+  "Chinese.tex" 1691927552 9137 39a38456a787e875c1886e7f52fbedcb ""
   (generated)
   "Chinese.aux"
   "Chinese.log"
