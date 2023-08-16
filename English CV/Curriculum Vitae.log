@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.12)  13 AUG 2023 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.12)  16 AUG 2023 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -291,11 +291,11 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 111
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 122.
+(Font)              <10.95> on input line 121.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 122.
+(Font)              <8> on input line 121.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 122.
+(Font)              <6> on input line 121.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -309,21 +309,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `"Curriculum Vitae".out' has not changed.
-(rerunfilecheck)             Checksum: A90CA0ED714EA1C0F18D39120C5479BC;390.
+(rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
  ) 
 Here is how much of TeX's memory you used:
  10263 strings out of 478268
  163040 string characters out of 5846346
- 492620 words of memory out of 5000000
+ 493620 words of memory out of 5000000
  28349 multiletter control sequences out of 15000+600000
  474851 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,329b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,308b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Curriculum Vitae.pdf" (1 page, 111225 bytes).
+Output written on "Curriculum Vitae.pdf" (1 page, 111377 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
