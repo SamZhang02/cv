@@ -1,0 +1,196 @@
+%------------------------
+% Resume in Latex
+% Author : Sam Zhang
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{setspace}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.1pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    #1 & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+    \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge \scshape Sam Zhang} \\ \vspace{1pt}
+  \small +1 (438) 630-2638 $|$ \href{mailto:sam.zijing.zhang@gmail.com}{\underline{sam.zijing.zhang@gmail.com}}  \\
+  \href{https://linkedin.com/in/zhang-sam}{\underline{linkedin.com/in/zhang-sam}} $|$
+  \href{https://github.com/SamZhang02}{\underline{github.com/SamZhang02}} $|$
+  \href{https://cs.mcgill.ca/~szhang139}{\underline{cs.mcgill.ca/$\sim$szhang139}}\\
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{\textbf{McGill University}}{Montreal, Canada}
+{B.A., Joint Computer Science and Statistics}{Aug. 2022 -- May 2025 (Expected)}
+\resumeItem{GPA: 3.95/4}
+\resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{{\textbf{Software Developer Intern}} $|$ \emph{TypeScript, React, C\#, ASP.NET, SQL}}{Sept. 2023 - Present}
+{Dayforce}{Toronto, Canada}
+\resumeItemListStart
+\resumeItem{
+  Contributed to full-stack web development on Dayforce, a leading cloud-based human capital management platform. Developed the frontend for Dayforce's position management feature with \textbf{TypeScript} and \textbf{React}, and the backend microservices in \textbf{C\#} and \textbf{ASP.NET}.}
+  \resumeItem{Worked as a core member in the revamp of the frontend UI. Focused on enhancing user experience, implementing accurate validation logic, and optimizing browser-side performance while ensuring active collaboration with Product and UI/UX teams.}
+  \resumeItem{
+  Cleared tech debts for the team, designed and implemented automated tests using tools like Cypress and Specflow, thereby increasing application reliability and code robustness.
+}
+\resumeItemListEnd
+\resumeSubheading
+{{\textbf{Machine Learning Research Intern}} $|$ \emph{Hadoop, TensorFlow, Python, Scala, SQL}}{May 2023 - Aug. 2023}
+{Meituan}{Shanghai, China}
+\resumeItemListStart
+\resumeItem{
+Engaged in research and development for Meituan, the largest leading local service platform in China, focusing on the advertisement recommender system.
+}
+\resumeItem{
+Worked on the Click-Through-Rate (CTR) model by deepening its comprehension of both ad context and user interactions, aiming to improve prediction accuracy.}
+\resumeItem{
+  Conducted two comprehensive offline experiments, handling tasks from initiation to conclusion. Managed the cleaning, pre-processing, and feature extraction from datasets of over 150TB per experiment utilizing tools like \textbf{Hive, Spark, and MapReduce} within the Hadoop ecosystem. Subsequently, developed deployable models using \textbf{TensorFlow}.
+}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\href{https://mcgill.courses}{\textbf{mcgill.courses}} $|$ \emph{TypeScript, React, TailwindCSS, Rust, MongoDB}} {Apr. 2023 - Present}
+\resumeItemListStart
+\resumeItem{Working on an open-source, ad-free platform for easy search and review of courses and instructors at McGill University.}
+\resumeItem{Developed the application front-end using \textbf{TypeScript}, \textbf{React}, and \textbf{TailwindCSS}, ensuring a smooth browser-side user experience.}
+\resumeItem{Implemented and deployed RESTful APIs using \textbf{Rust} for server-side logic and \textbf{MongoDB} for database management, with data retrieval efficiency and system scalability in mind.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/SamZhang02/llmbda}{\textbf{Llmbda}} $|$ \emph{Python}} {Dec. 2023}
+\resumeItemListStart
+\resumeItem{Prompted and fine-tuned Meta's open-sourced LLM \textbf{Llama2} to generate a formal syntax tree output to investigate Large Language Models' (LLM) ability to understand logical semantics in semi-formal natural language.}
+\resumeItem{Developed from scratch unique evaluation metrics to evaluate model performances based on their syntax tree output, and pipelined the evaluation process using Python scripts.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/SamZhang02/obsidian-latex-algorithms.git}{\textbf{Obsidian LateX Algorithm}} $|$ \emph{TypeScript}} {Mar. 2023}
+\resumeItemListStart
+\resumeItem{Developed with \textbf{TypeScript} a plugin for the electron-based markdown editor app \textit{Obsidian} to facilitate the process of writing mathimatical algorithms and pseudocodes within the editor.}
+\resumeItem{Acquired over 2,200+ downloads.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages}{: Python, TypeScript, JavaScript, Java, C++, Scala, C\#, SQL, R, Rust} \\
+        \textbf{Databases}{: SQLite, HiveQL, MySQL, MongoDB}\\
+        \textbf{Frameworks \& Libraries}{: React, TailwindCSS, TensorFlow, ASP.NET}\\
+        \textbf{Tools}{: Git, Docker, Spark, Hadoop}\\
+        \textbf{Languages Spoken}{: English, French, Chinese Mandarin, Chinese Cantonese}\\
+        }}
+\end{itemize}
+%-------------------------------------------
+
+\end{document}
+

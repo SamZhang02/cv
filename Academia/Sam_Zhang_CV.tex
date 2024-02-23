@@ -1,6 +1,6 @@
-%------------------------s
+%------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Author : Sam Zhang
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
 %------------------------
@@ -111,40 +111,52 @@
   \small +1 (438) 630-2638 $|$ \href{mailto:sam.zijing.zhang@gmail.com}{\underline{sam.zijing.zhang@gmail.com}}  \\
   \href{https://linkedin.com/in/zhang-sam}{\underline{linkedin.com/in/zhang-sam}} $|$
   \href{https://github.com/SamZhang02}{\underline{github.com/SamZhang02}} $|$
-  \href{https://cs.mcgill.ca/~szhang139}{\underline{cs.mcgill.ca/$\sim$szhang139}}
+  \href{https://cs.mcgill.ca/~szhang139}{\underline{cs.mcgill.ca/$\sim$szhang139}}\\
 \end{center}
 %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
 {\textbf{McGill University}}{Montreal, QC}
-{B.A., Joint Computer Science and Statistics}{ Sept. 2022 -- May 2025 (Expected)}
-\resumeItem{GPA: 3.94/4}
-\resumeSubheading
-{\textbf{Champlain College}}{St-Lambert, QC}
-{DEC, Social Science: Commerce}{Aug. 2020 -- May. 2022}
-\resumeItem{Social Science Certificate of Merit: Highest Achievement in Economics}
+{B.A., Joint Computer Science and Statistics}{Aug. 2022 -- May. 2025 (Expected)}
+\resumeItem{\textbf{GPA:} 3.94/4}
+\resumeItem{\textbf{Relevant Courseworks:}}
+\resumeItemListStart
+\resumeItem{Natural Language Processing}
+\resumeItem{Computational Linguistics}
+\resumeItem{Data Structures and Algorithms}
+\resumeItem{Programming Languages and Paradigms}
+\resumeItem{Probabilities}
+\resumeItem{Statistics}
+\resumeItemListEnd
 \resumeSubHeadingListEnd
-
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{{\textbf{Incoming Software Developer Intern}} }{Sept. 2023 - Apr. 2024 (Expected)}
-{Ceridian}{Toronto, Canada (Remote)}
+{{\textbf{Software Developer Intern}} $|$ \emph{React, C\#, ASP.NET, SQL}}{Sept. 2023 - Present}
+{Ceridian HCM}{Toronto, Canada (Remote)}
 \resumeItemListStart
-\resumeItem{Will be interning as a full-stack software developer at Ceridian during Fall 2023 and Winter 2024.}
+\resumeItem{
+  Full-stack web development for Dayforce, a cloud-based human capital management (HCM) platform.
+}
+\resumeItem{
+  Developing the micro-frontend of the Dayforce application's position management feature using  \textbf{TypeScript React} and backend microservices  using \textbf{C\#} and \textbf{ASP.NET}.}
 \resumeItemListEnd
 \resumeSubheading
-{{\textbf{Machine Learning Intern}} $|$ \emph{TensorFlow, Python, Scala, Java, SQL}}{May. 2023 - Aug. 2023}
+{{\textbf{Machine Learning R\&D Intern}} $|$ \emph{TensorFlow, Python, Scala, SQL}}{May. 2023 - Aug. 2023}
 {Meituan}{Shanghai, China (On-Site)}
 \resumeItemListStart
-\resumeItem{Contributed to Meituan, the largest local life service platform in China's advertisement recommendation system's development.}
-\resumeItem{Participated in the research and development of the click-through rate (CTR) model for the Dianping app's homepage ads.}
-\resumeItem{Conducted offline experiments related with the goal of fine-tuning the model's understanding of the ad and the ad-user context, thereby improving its performance in CTR predictions.}
-\resumeItem{Performed big data analysis and feature engineering using the \textbf{Hadoop ecosystem (Hive, Spark, \ldots)}}
-\resumeItem{Modeled, trained, and tuned the models using \textbf{TensorFlow}.}
+\resumeItem{Recommender system research and development for Meituan, the largest local life service platform in China.}
+\resumeItem{Worked on the tuning of the Click-Through Rate (CTR) model, a binary classification feedforward artificial neural network. Aiming to refine its understanding of the ad and the ad-user context, thereby improving its performance in CTR predictions.}
+\resumeItem{Conducted 2 offline experiments from start to finish with following the internal pipeline; cleaning, pre-processing, and extracting the features from over 100TB of data per experiment using the \textbf{Hadoop ecosystem (Hive, Spark, Mapreduce, \dots)}, and training using \textbf{TensorFlow}. The two experiments being:}
+{
+  \resumeItemListStart
+  \resumeItem{Integrated a new set of image embeddings into the CTR model to assess potential performance increases.}
+  \resumeItem{Computed similarity measures between the user's historical search queries' keywords and ad canidates' keywords, and integrated them as features into the CTR model.}
+  \resumeItemListEnd
+}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -155,16 +167,8 @@
 \resumeProjectHeading
 {\href{https://mcgill.courses}{\textbf{mcgill.courses}} $|$ \emph{TypeScript, React, TailwindCSS, Rust, MongoDB}}{April. 2023 - Present}
 \resumeItemListStart
-\resumeItem{Developed an open-source, ad-free search and review platform for courses offered and instructors teaching at McGill University.}
+\resumeItem{Developing and maintaining  an open-source, ad-free search and review platform for courses offered and instructors teaching at McGill University.}
 \resumeItem{Responsible for the front-end development of the website using \textbf{TypeScript}, \textbf{React}, and \textbf{TailwindCSS}.}
-\resumeItem{Collaborated with the back-end, interacting with the \textbf{Rust} and \textbf{MongoDB} components through REST APIs.}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\href{https://github.com/SamZhang02/STONK}{\textbf{STONK}} $|$ \emph{Python, SQLite}}{Dec. 2022}
-\resumeItemListStart
-\resumeItem{Created a Discord chat bot using the Discord.py library and the yfinance open-source library, enabling users to query live and historical stock market information.}
-\resumeItem{Implemented a robust stock information retrieval mechanism and a subscription system for users to receive automatic notifications on market trends.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -173,13 +177,14 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
-                \textbf{Languages}{: Python, TypeScript, Java, JavaScript, OCaml, C++, Scala, SQL} \\
-                \textbf{Databases}{: SQLite, PostgreSQL, MongoDB}\\
-                \textbf{Frameworks \& Libraries}{: React, TailwindCSS, TensorFlow}\\
-                \textbf{Tools}{: Git, HTML/CSS, \LaTeX, Spark, HDFS}\\
-                \textbf{Languages Spoken}{: English, French, Mandarin, Cantonese}\\
-          }}
+        \textbf{Programming Languages}{: Python, R, SQL, Scala, C++ TypeScript, JavaScript, Java, C\#} \\
+        \textbf{Databases}{: SQLite, HiveSQL, MySQL, MongoDB}\\
+        \textbf{Frameworks \& Libraries}{: TensorFlow}\\
+        \textbf{Tools}{: Git, \LaTeX, Spark, Hadoop}\\
+        \textbf{Languages Spoken}{: English, French, Chinese Mandarin, Chinese Cantonese}\\
+        }}
 \end{itemize}
 %-------------------------------------------
+
 
 \end{document}
